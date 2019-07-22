@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hum-nutrition/static/css/main.d135e343.chunk.css",
+    "main.js": "/hum-nutrition/static/js/main.6439c990.chunk.js",
+    "main.js.map": "/hum-nutrition/static/js/main.6439c990.chunk.js.map",
+    "runtime~main.js": "/hum-nutrition/static/js/runtime~main.866aed10.js",
+    "runtime~main.js.map": "/hum-nutrition/static/js/runtime~main.866aed10.js.map",
+    "static/js/2.97cd066a.chunk.js": "/hum-nutrition/static/js/2.97cd066a.chunk.js",
+    "static/js/2.97cd066a.chunk.js.map": "/hum-nutrition/static/js/2.97cd066a.chunk.js.map",
+    "index.html": "/hum-nutrition/index.html",
+    "precache-manifest.414938f6d0e7042a7738268b182f037e.js": "/hum-nutrition/precache-manifest.414938f6d0e7042a7738268b182f037e.js",
+    "service-worker.js": "/hum-nutrition/service-worker.js",
+    "static/css/main.d135e343.chunk.css.map": "/hum-nutrition/static/css/main.d135e343.chunk.css.map",
+    "static/media/App.scss": "/hum-nutrition/static/media/hero-desktop.88e12257.png",
+    "static/media/hero.png": "/hum-nutrition/static/media/hero.d3304c2a.png",
+    "static/media/hum-logo.png": "/hum-nutrition/static/media/hum-logo.e786bd9c.png",
+    "static/media/orange-box.png": "/hum-nutrition/static/media/orange-box.2cb128ba.png"
+  }
+}

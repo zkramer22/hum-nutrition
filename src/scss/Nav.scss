@@ -1,0 +1,224 @@
+nav {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  z-index: 100;
+  #top {
+    height: 30px;
+    background-color: black;
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .container-left {
+        font-family: $secondaryFont;
+        color: white;
+      }
+      .container-right {
+        display: none;
+      }
+    }
+  }
+  #bottom {
+    height: 60px;
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .container-left {
+        width: 60%;
+        max-width: 260px;
+        margin-left: 15px;
+      }
+      .container-right {
+        #nav-links {
+          display: none;
+        }
+        #hamburger-mock {
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          position: relative;
+          top: 5px;
+          div {
+            width: 100%;
+            height: 3px;
+            border-radius: 3px;
+            background-color: $humPink;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  nav {
+    div {
+      display: inline-block;
+    }
+    font-family: $secondaryFont;
+    height: 101px;
+    background-color: white;
+    margin-bottom: 27px;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      max-width: 985px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    #top {
+      width: 100%;
+      height: 30px;
+      background-color: black;
+      border-top: 1px solid white;
+      color: white;
+      font-size: 13px;
+      .container {
+        align-items: center;
+        .container-right {
+          height: 100%;
+          width: 700px;
+          display: flex;
+          justify-content: flex-end;
+          #truck, #phone {
+            display: inline;
+            width: 12px;
+            background-color: white;
+            filter: invert(100%);
+            margin-right: 5px;
+          }
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          #shipping {
+            margin: 0 0 0 30px;
+          }
+          #phone-number {
+            margin: 0 30px;
+          }
+          #free-trial {
+            position: relative;
+            width: 200px;
+            font-size: 15px;
+            #rhomb {
+              position: absolute;
+              background-color: white;
+              z-index: 9;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              transform: skewX(-30deg);
+            }
+            span {
+              color: black;
+              z-index: 10;
+            }
+          }
+          #login {
+            margin: 0 10px 0 40px;
+          }
+        }
+      }
+    }
+    #bottom {
+      width: 100%;
+      height: 70px;
+      background-color: white;
+      .container {
+        align-items: flex-end;
+        .container-right {
+          display: block;
+          #nav-links {
+            display: block;
+            color: $humPink;
+            font-weight: bold;
+            font-size: 14px;
+            span {
+              margin: 0 10px;
+              cursor: pointer;
+              transition: filter .1s linear;
+              &:hover {
+                filter: saturate(200%);
+              }
+              &:last-of-type::after {
+                content: '0';
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: #E10098;
+                color: white;
+                width: 17px;
+                height: 16px;
+                font-size: 13px;
+                border-radius: 10px;
+                margin-left: 2px;
+              }
+            }
+          }
+          #hamburger-mock {
+            display: none;
+          }
+        }
+      }
+      .img-container {
+        width: 282px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+  nav {
+    #top {
+      .container {
+        .container-right {
+          width: unset;
+          #truck, #phone {
+            margin-right: 5px;
+          }
+          #shipping {
+            margin: 0 0 0 15px;
+          }
+          #phone-number {
+            margin: 0 15px;
+          }
+          #free-trial {
+            width: 150px;
+            font-size: 15px;
+            #rhomb {
+            }
+          }
+          #login {
+            margin: 0 10px 0 10px;
+          }
+        }
+      }
+    }
+    #bottom {
+      .container {
+        .container-right {
+          #nav-links {
+            span {
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

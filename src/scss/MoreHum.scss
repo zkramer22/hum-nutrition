@@ -1,0 +1,115 @@
+#more-hum {
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 40px 0 20px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      color: $humPink;
+      margin: 0;
+      font-size: 19px;
+      text-align: center;
+    }
+    .price-tier-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 27px 0;
+      .save {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 29px;
+        .img-container {
+          width: 21px;
+          margin: 5px 10px;
+          height: auto;
+        }
+      }
+      p {
+        font-family: $PrimaryBold;
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: lighter;
+      }
+    }
+    #orange-box {
+      position: relative;
+      width: 290px;
+    }
+  }
+}
+
+@media (min-width: 420px) {
+  #more-hum {
+    .container {
+      h3 {
+        font-size: calc(19px + (30 - 19) * ((100vw - 420px) / (768 - 420)));
+      }
+      .price-tier-container {
+        .save {
+          font-size: calc(29px + (42 - 29) * ((100vw - 420px) / (768 - 420)));
+        }
+        p {
+          font-size: calc(18px + (22 - 18) * ((100vw - 420px) / (768 - 420)));
+        }
+      }
+      #orange-box {
+        width: 50%;
+        min-width: 290px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  #more-hum {
+    background-color: white;
+    padding: 50px 0;
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      flex-direction: row;
+      justify-content: space-around;
+      h3 {
+        display: none;
+      }
+      .price-tier-container {
+        margin: 0 10px;
+        .save {
+          flex-direction: column;
+          font-size: 42px;
+          .img-container {
+            margin-bottom: 10px;
+            &:last-of-type {
+              display: none;
+            }
+          }
+        }
+        p {
+          font-size: 22px;
+        }
+      }
+      #orange-box {
+        position: absolute;
+        top: 0;
+        left: -185px;
+        z-index: 100;
+        width: 500px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1260px) {
+  #more-hum {
+    .container {
+      #orange-box {
+        left: unset;
+        right: 80%;
+      }
+    }
+  }
+}

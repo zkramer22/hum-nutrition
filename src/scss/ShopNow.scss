@@ -1,0 +1,69 @@
+#shop-now-banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 35px 0 25px;
+  .discount-code {
+    font-family: $secondaryLight;
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: center;
+    span {
+      font-family: $secondaryFont;
+      color: $humPink;
+      font-weight: bold;
+    }
+  }
+  .shop-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $humPink;
+    font-family: $secondaryFont;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    height: 58px;
+    margin-top: 15px;
+  }
+  .already-a-member {
+    font-family: $secondaryLight;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 0 10%;
+  }
+  img {
+    position: absolute;
+    width: 43px;
+    height: auto;
+    right: 0;
+    top: 70px;
+  }
+}
+
+@media (min-width: 420px) {
+  #shop-now-banner {
+    .already-a-member {
+      font-size: calc(15px + (22 - 15) * ((100vw - 420px) / (768 - 420)));
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  #shop-now-banner {
+    background-color: #f6f6f6;
+    padding: 35px 0;
+    .already-a-member {
+      font-size: 16px;
+    }
+    img {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+#hero-container {
+  position: relative;
+  width: 100%;
+  .img-container {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    #hero {
+      display: block;
+    }
+  }
+  .hero-copy {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .shop-now {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $humPink;
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      width: 172px;
+      height: 51px;
+      margin: 3% 0 1%;
+    }
+    .discount-code {
+      font-family: $secondaryLight;
+      font-size: 17px;
+      padding: 5px 0;
+      margin: 25px 0 0;
+      text-align: center;
+      span {
+        color: $humPink;
+        font-family: $secondaryFont;
+        font-weight: bold;
+      }
+    }
+  }
+  h1, h2 {
+    margin: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 420px) {
+  #hero-container {
+    .hero-copy {
+      height: 50%;
+      .shop-now {
+        width: 40%;
+        height: 11vw;
+        font-size: calc(16px + (24 - 16) * ((100vw - 420px) / (768 - 420)));
+      }
+      .discount-code {
+        font-size: calc(17px + (27 - 17) * ((100vw - 420px) / (768 - 420)));
+        margin-top: 6%;
+      }
+    }
+    h1 {
+      font-size: calc(36px + (65 - 36) * ((100vw - 420px) / (768 - 420)));
+    }
+    h2 {
+      font-size: calc(24px + (40 - 24) * ((100vw - 420px) / (768 - 420)));
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  #hero-container {
+    height: 473px;
+    background-image: url('../img/hero-desktop.png');
+    background-position: calc(100% - 80px) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .img-container {
+      #hero {
+        display: none;
+      }
+    }
+    .hero-copy {
+      height: auto;
+      right: 0;
+      top: 29%;
+      left: unset;
+      margin-right: 10%;
+      h1 {
+        font-size: 48px;
+        text-shadow: 1px 1px white;
+      }
+      h2 {
+        font-size: 32px;
+      }
+      .shop-now {
+        width: 250px;
+        height: 58px;
+        font-size: 18px;
+        margin: 20px 0 0 0;
+      }
+      .discount-code {
+        font-size: 20px;
+      }
+    }
+  }
+}

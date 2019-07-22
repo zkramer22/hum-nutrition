@@ -1,6 +1,7 @@
-## Available Scripts
-
 GitHub Page: https://zkramer22.github.io/hum-nutrition
+
+
+## Available Scripts
 
 In the project directory, you can run:
 

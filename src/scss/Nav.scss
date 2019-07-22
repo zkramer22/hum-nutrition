@@ -3,6 +3,7 @@ nav {
   height: 90px;
   position: relative;
   z-index: 100;
+  box-shadow: 0px 0px 7px -3px black;
   #top {
     height: 30px;
     background-color: black;
@@ -60,13 +61,12 @@ nav {
 
 @media (min-width: 769px) {
   nav {
+    font-family: $secondaryFont;
+    height: 128px;
+    background-color: white;
     div {
       display: inline-block;
     }
-    font-family: $secondaryFont;
-    height: 101px;
-    background-color: white;
-    margin-bottom: 27px;
     .container {
       display: flex;
       justify-content: space-between;
@@ -84,6 +84,7 @@ nav {
       color: white;
       font-size: 13px;
       .container {
+        justify-content: space-between;
         align-items: center;
         .container-right {
           height: 100%;

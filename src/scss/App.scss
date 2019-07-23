@@ -9,21 +9,18 @@
   font-family: 'NeutrafaceDemiAlt';
   src: local("NeutraText-DemiAlt"),
        url(../fonts/NeutraText-DemiAlt.otf);
-  // font-weight: 100 200 300 400 500 600 700;
 }
 
 @font-face {
   font-family: 'NeutraTextBook';
   src: local("NeutraText-Book"),
        url(../fonts/NeutraText-Book.ttf);
-  // font-weight: 100 200 300 400 500 600 700;
 }
 
 @font-face {
   font-family: 'ProximaNova';
   src: local("Proxima-Nova-Regular"),
        url(../fonts/ProximaNova-Regular.otf);
-  // font-weight: 100 200 300 400 500 600 700;
 }
 
 @font-face {
@@ -42,6 +39,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $primaryFont;
   overflow-x: hidden;
+}
+
+h1, h2, p, span {
+  min-height: 0vw;
 }
 
 img {

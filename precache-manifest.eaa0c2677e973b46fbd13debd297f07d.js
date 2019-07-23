@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a376fb84ff735c3816f0dd2e4c023df4",
+    "revision": "01e3b716d5371352075d7b98a700f3f8",
     "url": "/hum-nutrition/index.html"
   },
   {
-    "revision": "848ef3a5dcf25b7ad005",
-    "url": "/hum-nutrition/static/css/main.f9e83196.chunk.css"
+    "revision": "6138f1e98e708b7688f3",
+    "url": "/hum-nutrition/static/css/main.3f48b21f.chunk.css"
   },
   {
     "revision": "5a896bec2100e4ee8c92",
     "url": "/hum-nutrition/static/js/2.97cd066a.chunk.js"
   },
   {
-    "revision": "848ef3a5dcf25b7ad005",
+    "revision": "6138f1e98e708b7688f3",
     "url": "/hum-nutrition/static/js/main.6439c990.chunk.js"
   },
   {

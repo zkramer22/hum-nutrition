@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hum-nutrition/static/css/main.f9e83196.chunk.css",
+    "main.css": "/hum-nutrition/static/css/main.3f48b21f.chunk.css",
     "main.js": "/hum-nutrition/static/js/main.6439c990.chunk.js",
     "main.js.map": "/hum-nutrition/static/js/main.6439c990.chunk.js.map",
     "runtime~main.js": "/hum-nutrition/static/js/runtime~main.866aed10.js",
@@ -8,9 +8,9 @@
     "static/js/2.97cd066a.chunk.js": "/hum-nutrition/static/js/2.97cd066a.chunk.js",
     "static/js/2.97cd066a.chunk.js.map": "/hum-nutrition/static/js/2.97cd066a.chunk.js.map",
     "index.html": "/hum-nutrition/index.html",
-    "precache-manifest.90a63537070c5fa7a1336cabb5e00dbb.js": "/hum-nutrition/precache-manifest.90a63537070c5fa7a1336cabb5e00dbb.js",
+    "precache-manifest.eaa0c2677e973b46fbd13debd297f07d.js": "/hum-nutrition/precache-manifest.eaa0c2677e973b46fbd13debd297f07d.js",
     "service-worker.js": "/hum-nutrition/service-worker.js",
-    "static/css/main.f9e83196.chunk.css.map": "/hum-nutrition/static/css/main.f9e83196.chunk.css.map",
+    "static/css/main.3f48b21f.chunk.css.map": "/hum-nutrition/static/css/main.3f48b21f.chunk.css.map",
     "static/media/App.scss": "/hum-nutrition/static/media/hero-desktop.88e12257.png",
     "static/media/hero.png": "/hum-nutrition/static/media/hero.d3304c2a.png",
     "static/media/hum-logo.png": "/hum-nutrition/static/media/hum-logo.e786bd9c.png",

@@ -42,7 +42,8 @@ body {
 }
 
 h1, h2, p, span {
-  min-height: 0vw;
+  // min-height: calc(0vw);
+  min-height: 1vw;
 }
 
 img {
